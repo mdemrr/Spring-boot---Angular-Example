@@ -1,0 +1,7 @@
+<p>product works!</p>
+<input type="button" (click)="products=[]; getProductsClick();" value="Get Products">
+<ul>
+  <li *ngFor="let product of products;let i =index">
+    {{i+1}} {{product.supplier.companyName}}
+  </li>
+</ul>
