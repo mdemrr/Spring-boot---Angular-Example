@@ -22,4 +22,8 @@ public class Product implements IEntity {
     @ManyToOne()
     @JoinColumn(name = "supplier_id")
     private Supplier supplier;
+
+    @ManyToOne()
+    @JoinColumn(name = "category_id")
+    private Category category;
 }

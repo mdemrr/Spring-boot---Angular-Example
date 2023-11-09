@@ -17,5 +17,6 @@ public class ProductDto2  {
    private  Integer id;
    private String productName;
    private String supplierCompanyName;
+
     //SupplierDto supplier;
 }

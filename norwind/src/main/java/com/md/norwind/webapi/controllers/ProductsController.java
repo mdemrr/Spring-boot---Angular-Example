@@ -41,6 +41,6 @@ public class ProductsController {
     @GetMapping("get-dto")
     List<ProductDTO> getDTO()
     {
-        return  productService.getAllDTO();
+        return productService.getAllDTO();
     }
 }

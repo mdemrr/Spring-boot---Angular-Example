@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/nortwind.iml" filepath="$PROJECT_DIR$/.idea/nortwind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/norwind/norwind.iml" filepath="$PROJECT_DIR$/norwind/norwind.iml" />
     </modules>
   </component>
 </project>

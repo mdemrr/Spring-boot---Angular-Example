@@ -1,5 +1,6 @@
 package com.md.norwind.business.abstracts.projections.product;
 
+import com.md.norwind.business.abstracts.projections.category.CategoryInfo;
 import com.md.norwind.business.abstracts.projections.supplier.SupplierInfo;
 
 /**
@@ -13,5 +14,7 @@ public interface ProductInfo {
     Integer getSupplierId();
 
     SupplierInfo getSupplier();
+
+    CategoryInfo getCategory();
 
 }
